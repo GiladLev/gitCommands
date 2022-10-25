@@ -6,7 +6,7 @@ function Counter() {
     return (
         <div className="App">
             <button onClick={() => setCounter(counter + 1)}>+</button>
-            <span>{counter}</span>
+            <span>{counter} f</span>
             <button onClick={() => setCounter(counter - 1)}>-</button>
         </div>
     );
